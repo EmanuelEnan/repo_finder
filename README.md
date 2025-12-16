@@ -1,16 +1,13 @@
-# repo_finder
+This app contains top 50 most starred repositories in the Github. To find the desired repository it has two types of sorting - 1. most popular 2. last updated
 
-A new Flutter project.
+The app locally persist the data so that user can comfortably use the app even with no internet connection. All the functionalities will perfectly run without internet availability.
 
-## Getting Started
+The app will normally run and it has below notable packages used -
 
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+1. Bloc
+2. Dartz
+3. Injectable
+4. GetIt
+5. Dio
+6. Equatable
+7. Shared Preferences
